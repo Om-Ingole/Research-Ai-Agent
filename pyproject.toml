@@ -1,0 +1,24 @@
+[project]
+name = "multi-agent-research-adk"
+version = "1.0.0"
+description = "Multi-Agent AI Research Assistant powered by Google ADK and Gemini"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Om Ingole" }]
+dependencies = [
+    "google-adk",
+    "googlesearch-python>=1.2.3",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.3",
+    "playwright>=1.44.0",
+    "streamlit>=1.35.0",
+    "python-dotenv>=1.0.1",
+    "duckduckgo-search>=8.1.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "black",
+    "isort",
+]

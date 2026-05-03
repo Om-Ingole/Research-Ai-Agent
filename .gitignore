@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Claude Code project instructions
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Virtual environment (created by uv)
+.venv/
+
+# Generated outputs
+outputs/
+
+# Streamlit
+.streamlit/secrets.toml
